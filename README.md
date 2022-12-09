@@ -5,3 +5,10 @@
 
 ## 搭建
 项目使用`vite-press`搭建的静态文档项目
+
+## 主要内容
+- HTML
+- CSS
+- JavaScript
+- 框架知识
+- 软件使用

@@ -11,6 +11,8 @@ export default defineConfig({
   title: '趣学前端',
   // 描述信息
   description: '趣学前端，让前端更有趣！',
+  // 输出目录
+  outDir: '../dist',
   // 头部标签  主要用于插入logo js【广告】 css
   head: [
     ['link', { rel: 'icon', href: '/cat.svg' }],
@@ -31,7 +33,7 @@ export default defineConfig({
     // 底部
     footer: {
       message: '根据 MIT 许可证发布。',
-      copyright: 'Copyright © 2022 Powered by mouzhacu',
+      copyright: 'Copyright © 2022 Powered by 某某扣1',
     },
     // 底部文案
     docFooter: {
