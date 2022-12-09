@@ -240,7 +240,7 @@ span{
 
 #### 简写css颜色属性值
 
-```cs
+```css
 /* 不推荐 */
 .box{ color:#000000; background-color:#ddeeff; }
 /* 推荐 */

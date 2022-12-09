@@ -12,16 +12,15 @@ hero:
   tagline: 梦想是孤独的旅行, 路上少不了质疑和嘲笑！ 
   # 主图片
   image:
-    src: /logo.svg
+    src: /cat.svg
     alt: 趣学前端
-    width: 200
   actions:
     - theme: brand
       text: 开始学习
-      link: /guide/what-is-vitepress
+      link: /study/
     - theme: alt
       text: 关于博主
-      link: https://github.com/vuejs/vitepress
+      link: /resume/
 
 # 描述列表
 features:

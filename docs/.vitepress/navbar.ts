@@ -18,8 +18,8 @@ const navbar: DefaultTheme.NavItem[] = [
       { text: '中高进阶篇', link: '/audition/adv/' },
     ] 
   },
-  { text: '作者简介', link: '/resume/' },
-  { text: 'B站视频', link: 'https://space.bilibili.com/100388195' }
+  { text: '作者简介', link: '/resume/' }
+  // { text: 'B站视频', link: 'https://space.bilibili.com/100388195' }
 ]
 
 export default navbar

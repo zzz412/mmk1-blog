@@ -7,11 +7,11 @@ import studySidebar from "../study/sidebar";
 
 // 各页面侧边栏配置
 const sidebar: DefaultTheme.Sidebar = {
-  '/study': studySidebar,
-  '/audition/base': auditionBaseSidebar,
-  '/audition/adv': auditionAdvSidebar,
-  '/framework/mini': frameworkMiniSidebar,
-  '/framework/uniapp': frameworkUniAppSidebar,
+  '/study/': studySidebar,
+  '/audition/base/': auditionBaseSidebar,
+  '/audition/adv/': auditionAdvSidebar,
+  '/framework/mini/': frameworkMiniSidebar,
+  '/framework/uniapp/': frameworkUniAppSidebar,
 }
 
 
