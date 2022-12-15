@@ -1,0 +1,77 @@
+# 十、小程序端【登录 / 菜品】页面
+
+本章节主要讲解  小程序端中   登录页【选择人数】 以及菜品页面的逻辑交互
+
+## 10.1 选择人数页
+
+<img src="C:\Users\13921\Desktop\mmk1-blog\docs\framework\uniapp\adv\assets\image-20221214171147118.png" alt="image-20221214171147118" style="zoom:50%;" />
+
+该页面中我们主要需要关注的逻辑点在于: 
+
+1. 加载当前扫码的商户信息 以及 桌号
+2. 选择人数
+3. 开始点餐的用户授权
+
+### 加载商户信息
+
+
+
+
+
+### 选择人数
+
+
+
+
+
+### 开始点餐
+
+
+
+## 10.2 菜品页
+
+<img src="C:\Users\13921\Desktop\mmk1-blog\docs\framework\uniapp\adv\assets\image-20221214171429097.png" alt="image-20221214171429097" style="zoom:50%;" />
+
+菜品页同样先分析逻辑:
+
+1. 加载当前商户菜品及类目信息进行渲染
+2. 点击类目 跳转对应类目菜品
+3. 类目自动激活  【简单理解 就是菜品滑动 类目根据当前菜品自动对应激活】
+
+
+
+## 10.3 添加菜品
+
+<img src="C:\Users\13921\Desktop\mmk1-blog\docs\framework\uniapp\adv\assets\image-20221214171737198.png" alt="image-20221214171737198" style="zoom:50%;" />
+
+由于添加菜品逻辑是点餐的核心逻辑   我们将其拆分来看:
+
+1. 菜品的加减逻辑
+2. 对应类目的菜品计数
+3. 口袋计数
+
+
+
+
+
+## 10.4 口袋与菜品预览
+
+<img src="C:\Users\13921\Desktop\mmk1-blog\docs\framework\uniapp\adv\assets\image-20221214172001045.png" alt="image-20221214172001045" style="zoom:33%;" />
+
+<img src="C:\Users\13921\Desktop\mmk1-blog\docs\framework\uniapp\adv\assets\image-20221214172029172.png" alt="image-20221214172029172" style="zoom:33%;" />
+
+菜品预览板块与口袋板块  作为次级逻辑     我们将该逻辑  拆分为2个组件进行编写
+
+**菜品预览逻辑**:
+
+1. 菜品信息的显示
+2. 菜品的添加与删除
+
+
+
+**口袋逻辑**：
+
+1. 已添加菜品列表的显示
+2. 菜品的添加与删除
+3. 清空已添加菜品
+

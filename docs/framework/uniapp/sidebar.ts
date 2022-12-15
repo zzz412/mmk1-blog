@@ -33,6 +33,7 @@ const frameworkUniAppSidebar: DefaultTheme.SidebarGroup [] = [
       { text: '7-后台管理端【菜品管理】接口', link: '/framework/uniapp/adv/7-后台管理端【菜品管理】接口.md' },
       { text: '8-后台管理端【菜品管理】页面', link: '/framework/uniapp/adv/8-后台管理端【菜品管理】页面.md' },
       { text: '9-小程序端【登录菜品】接口', link: '/framework/uniapp/adv/9-小程序端【登录菜品】接口.md' },
+      { text: '10-小程序端【登录菜品】页面', link: '/framework/uniapp/adv/10-小程序端【登录菜品】页面.md' },
     ]
   }
 ]
