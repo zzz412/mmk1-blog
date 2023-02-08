@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-const studySidebar: DefaultTheme.SidebarGroup [] = [
+const studySidebar: DefaultTheme.SidebarItem [] = [
   // HTML
   {
     text: 'HTML',
@@ -13,7 +13,7 @@ const studySidebar: DefaultTheme.SidebarGroup [] = [
   // CSS
   {
     text: 'CSS',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: '01-CSS基本样式和选择器',
@@ -52,7 +52,7 @@ const studySidebar: DefaultTheme.SidebarGroup [] = [
   // JavaScript
   {
     text: 'JavaScript',
-    collapsible: true,
+    collapsed: true,
     items: [
       { text: '01-认识javaScript', link: '/study/notes/js/01-认识javaScript.md' },
       {
@@ -118,7 +118,7 @@ const studySidebar: DefaultTheme.SidebarGroup [] = [
   // HTML&CSS练习
   {
     text: 'HTML&CSS练习',
-    collapsible: true,
+    collapsed: true,
     items: [
       { text: '01-基本标签', link: '/study/notes/htmlcsswork/01-基本标签.md' },
       { text: '02-列表标签', link: '/study/notes/htmlcsswork/02-列表标签.md' },
@@ -127,7 +127,7 @@ const studySidebar: DefaultTheme.SidebarGroup [] = [
   // JavaScript练习
   {
     text: 'Javascipt练习',
-    collapsible: true,
+    collapsed: true,
     items: [
       {
         text: '01-认识javaScript',

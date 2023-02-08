@@ -12,7 +12,7 @@ export default defineConfig({
   // 描述信息
   description: '趣学前端，让前端更有趣！',
   // 输出目录
-  outDir: '../dist',
+  outDir: '../zeng',
   // 头部标签  主要用于插入logo js【广告】 css
   head: [
     ['link', { rel: 'icon', href: '/cat.svg' }],

@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-const frameworkMiniSidebar: DefaultTheme.SidebarGroup [] = [
+const frameworkMiniSidebar: DefaultTheme.SidebarItem [] = [
   {
     text: '小程序',
     items: [
