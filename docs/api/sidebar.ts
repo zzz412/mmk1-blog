@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-const apiSidebar: DefaultTheme.SidebarGroup [] = [
+const apiSidebar: DefaultTheme.SidebarItem [] = [
   { 
     text: '接口文档',
     items: [

@@ -1,6 +1,6 @@
 import { DefaultTheme } from 'vitepress'
 
-const auditionBaseSidebar: DefaultTheme.SidebarGroup [] = [
+const auditionBaseSidebar: DefaultTheme.SidebarItem [] = [
   {
     text: '基础知识篇',
     items: [
