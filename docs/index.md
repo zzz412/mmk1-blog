@@ -17,7 +17,7 @@ hero:
   actions:
     - theme: brand
       text: 开始学习
-      link: /study/
+      link: /learn/notes/web.html
     - theme: alt
       text: 关于博主
       link: /resume/

@@ -33,7 +33,7 @@ export default defineConfig({
     // 底部
     footer: {
       message: '根据 MIT 许可证发布。',
-      copyright: 'Copyright © 2022 Powered by 某某扣1',
+      copyright: 'Copyright © 2023 Powered by 某某扣1',
     },
     // 底部文案
     docFooter: {
