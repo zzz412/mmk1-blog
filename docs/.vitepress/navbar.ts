@@ -3,11 +3,11 @@ import { DefaultTheme } from 'vitepress'
 const navbar: DefaultTheme.NavItem[] = [
   { text: '学习路线', link: '/learn/notes/web.md' },
   {
-    text: '框架手记',
+    text: '知识手记',
     items: [
       // { text: 'Vue', link: '/framework/vue/' },
       { text: 'React', link: '/framework/react/aribnb/01- 项目初始化搭建.md' },
-      { text: '微信小程序', link: '/framework/mini/notes/小程序基础.md' },
+      { text: 'mini-app', link: '/framework/mini/notes/小程序基础.md' },
       { text: 'uni-app', link: '/framework/uniapp/base/' },
     ]
   },
@@ -19,7 +19,7 @@ const navbar: DefaultTheme.NavItem[] = [
       { text: '葵花宝典', link: '/audition/kh/' }
     ] 
   },
-  { text: '开源广场', link: '/source-list/' },
+  { text: '开源项目', link: '/source-list/' },
   { text: '项目接口', link: '/api/notes/vueshopAPI接口文档' },
   { text: '作者简介', link: '/resume/' }
   // { text: 'B站视频', link: 'https://space.bilibili.com/100388195' }
