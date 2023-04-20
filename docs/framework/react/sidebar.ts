@@ -17,7 +17,8 @@ const frameworkReactSidebar: DefaultTheme.SidebarItem [] = [
     text: '进阶知识',
     collapsed: false,
     items: [
-      { text: '1-前端监控', link: '/framework/react/adv/01- 前端监控.md' }
+      { text: '1-如何实现前端监控', link: '/framework/react/adv/01- 前端监控.md' },
+      { text: '2-如何写好一份简历', link: '/framework/react/adv/02- 如何写好一份简历.md' },
     ]
   }
 ]

@@ -10,6 +10,7 @@ import frameworkReactSidebar from '../framework/react/sidebar'
 import learnSidebar from '../learn/sidebar'
 import sourceListSidebar from '../source-list/sidebar'
 import apiSidebar from '../api/sidebar'
+import auditionMsSidebar from '../audition/ms/sidebar'
 
 // 各页面侧边栏配置
 const sidebar: DefaultTheme.Sidebar = {
@@ -20,6 +21,7 @@ const sidebar: DefaultTheme.Sidebar = {
   // 面试手记
   '/audition/base/': auditionBaseSidebar,
   '/audition/adv/': auditionAdvSidebar,
+  '/audition/ms/': auditionMsSidebar,
   '/audition/kh/': auditionKhSidebar,
   // 框架手记
   '/framework/react': frameworkReactSidebar,

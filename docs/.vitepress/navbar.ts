@@ -7,15 +7,16 @@ const navbar: DefaultTheme.NavItem[] = [
     items: [
       // { text: 'Vue', link: '/framework/vue/' },
       { text: 'React', link: '/framework/react/aribnb/01- 项目初始化搭建.md' },
-      { text: 'mini-app', link: '/framework/mini/notes/小程序基础.md' },
-      { text: 'uni-app', link: '/framework/uniapp/base/' },
+      { text: 'MiniApp', link: '/framework/mini/notes/小程序基础.md' },
+      { text: 'UniApp', link: '/framework/uniapp/base/' },
     ]
   },
   { 
     text: '面试手记', 
     items: [
-      { text: '初级开发篇', link: '/audition/base/' },
-      { text: '中高进阶篇', link: '/audition/adv/' },
+      { text: '面试宝典', link: '/audition/ms/' },
+      // { text: '初级开发篇', link: '/audition/base/' },
+      // { text: '中高进阶篇', link: '/audition/adv/' },
       { text: '葵花宝典', link: '/audition/kh/' }
     ] 
   },
