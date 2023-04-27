@@ -593,7 +593,7 @@ window.callback = function (data) {
 </script>
 ```
 
-然后慕课网给我提供了一个`http://baidu.com/api.js`，内容如下（之前说过，服务器可动态生成内容）
+提供了一个`http://baidu.com/api.js`，内容如下（之前说过，服务器可动态生成内容）
 
 ```js
 callback({x:100, y:200})
